@@ -1,0 +1,1069 @@
+OmEntry {
+	#tags : {
+		#prior : OmReference [ 'Pharo12.0-SNAPSHOT-64bit-9d04231.21B9FE38CE10', '1' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpPackageAddition {
+		#packageName : #TriValuedLogic
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '1' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : EpPackageTagAddition {
+		#packageTagName : #Uncategorized,
+		#packageName : #TriValuedLogic
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '2' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : #Object,
+				#definitionSource : 'Object << #TriBoolean\r\tslots: {};\r\tpackage: \'TriValuedLogic\''
+			},
+			#name : #TriBoolean,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << TriBoolean class\r\tslots: {}'
+				},
+				#name : #'TriBoolean class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #TriBoolean
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #TriValuedLogic,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '3' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : #TriBoolean,
+				#definitionSource : 'TriBoolean << #Verdadero\r\tslots: {};\r\tpackage: \'TriValuedLogic\''
+			},
+			#name : #Verdadero,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'TriBoolean class << Verdadero class\r\tslots: {}'
+				},
+				#name : #'Verdadero class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #Verdadero
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #TriValuedLogic,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '4' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : #TriBoolean,
+				#definitionSource : 'TriBoolean << #Falso\r\tslots: {};\r\tpackage: \'TriValuedLogic\''
+			},
+			#name : #Falso,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'TriBoolean class << Falso class\r\tslots: {}'
+				},
+				#name : #'Falso class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #Falso
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #TriValuedLogic,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '5' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : #TriBoolean,
+				#definitionSource : 'TriBoolean << #TError\r\tslots: {};\r\tpackage: \'TriValuedLogic\''
+			},
+			#name : #TError,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'TriBoolean class << TError class\r\tslots: {}'
+				},
+				#name : #'TError class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #TError
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #TriValuedLogic,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '6' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : #TriBoolean,
+				#definitionSource : 'TriBoolean << #Verdadero\r\tslots: {};\r\tpackage: \'TriValuedLogic\''
+			},
+			#name : #Verdadero,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'TriBoolean class << Verdadero class\r\tslots: {}'
+				},
+				#name : #'Verdadero class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #Verdadero
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #TriValuedLogic,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '7' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #'&',
+			#protocol : #'as yet unclassified',
+			#sourceCode : '& aTriBoolean\r    "Realiza la operación lógica AND con circuito corto"\r    ^aTriBoolean.\r',
+			#stamp : '6/30/2024 15:05',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '8' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : #TriBoolean,
+				#definitionSource : 'TriBoolean << #Verdadero\r\tslots: {};\r\tpackage: \'TriValuedLogic\''
+			},
+			#name : #Verdadero,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'TriBoolean class << Verdadero class\r\tslots: {}'
+				},
+				#name : #'Verdadero class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #Verdadero
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #TriValuedLogic,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'logical operations'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '9' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #'&',
+			#protocol : #'as yet unclassified',
+			#sourceCode : '& aTriBoolean\r    "Realiza la operación lógica AND con circuito corto"\r    ^aTriBoolean.\r',
+			#stamp : '6/30/2024 15:05',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #'&',
+			#protocol : #'logical operations',
+			#sourceCode : '& aTriBoolean\r    "Realiza la operación lógica AND con circuito corto"\r    ^aTriBoolean.\r',
+			#stamp : '6/30/2024 15:05',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '10' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #'|',
+			#protocol : #'logical operations',
+			#sourceCode : '| aTriBoolean\r    "Realiza la operación lógica OR con circuito corto"\r    ^self.',
+			#stamp : '6/30/2024 15:09',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '11' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #'and:',
+			#protocol : #'logical operations',
+			#sourceCode : 'and: aBlock\r    "Realiza la operación lógica AND con circuito largo"\r    ^aBlock value.',
+			#stamp : '6/30/2024 15:09',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '12' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #'or:',
+			#protocol : #'logical operations',
+			#sourceCode : 'or: aBlock\r    "Realiza la operación lógica OR con circuito largo"\r    ^self.',
+			#stamp : '6/30/2024 15:09',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '13' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #not,
+			#protocol : #'logical operations',
+			#sourceCode : 'not\r    "Realiza la operación lógica NOT"\r    ^Falso new.',
+			#stamp : '6/30/2024 15:09',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '14' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #esVerdadero,
+			#protocol : #'logical operations',
+			#sourceCode : 'esVerdadero\r    "Devuelve true si es verdadero"\r    ^true.',
+			#stamp : '6/30/2024 15:09',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '15' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #esFalso,
+			#protocol : #'logical operations',
+			#sourceCode : 'esFalso\r    "Devuelve false si es falso"\r    ^false.',
+			#stamp : '6/30/2024 15:09',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '16' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #esError,
+			#protocol : #'logical operations',
+			#sourceCode : 'esError\r    "Devuelve false si es error"\r    ^false.',
+			#stamp : '6/30/2024 15:10',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '17' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : #TriBoolean,
+				#definitionSource : 'TriBoolean << #Falso\r\tslots: {};\r\tpackage: \'TriValuedLogic\''
+			},
+			#name : #Falso,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'TriBoolean class << Falso class\r\tslots: {}'
+				},
+				#name : #'Falso class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #Falso
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #TriValuedLogic,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '18' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #'&',
+			#protocol : #'as yet unclassified',
+			#sourceCode : '& aTriBoolean\r    ^aTriBoolean.',
+			#stamp : '6/30/2024 15:11',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '19' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : #TriBoolean,
+				#definitionSource : 'TriBoolean << #Falso\r\tslots: {};\r\tpackage: \'TriValuedLogic\''
+			},
+			#name : #Falso,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'TriBoolean class << Falso class\r\tslots: {}'
+				},
+				#name : #'Falso class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #Falso
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #TriValuedLogic,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'logical operations'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '20' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #'&',
+			#protocol : #'as yet unclassified',
+			#sourceCode : '& aTriBoolean\r    ^aTriBoolean.',
+			#stamp : '6/30/2024 15:11',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #'&',
+			#protocol : #'logical operations',
+			#sourceCode : '& aTriBoolean\r    ^aTriBoolean.',
+			#stamp : '6/30/2024 15:11',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '21' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #'|',
+			#protocol : #'logical operations',
+			#sourceCode : '| aTriBoolean\r    ^self.',
+			#stamp : '6/30/2024 15:12',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '22' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #'and:',
+			#protocol : #'logical operations',
+			#sourceCode : 'and: aBlock\r    ^aBlock value.',
+			#stamp : '6/30/2024 15:12',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '23' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #'or:',
+			#protocol : #'logical operations',
+			#sourceCode : 'or: aBlock\r    ^self.',
+			#stamp : '6/30/2024 15:12',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '24' ],
+		#self : OmReference [ '25' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #not,
+			#protocol : #'logical operations',
+			#sourceCode : 'not\r    ^Falso new.',
+			#stamp : '6/30/2024 15:12',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '25' ],
+		#self : OmReference [ '26' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #not,
+			#protocol : #'logical operations',
+			#sourceCode : 'not\r    ^Falso new.',
+			#stamp : '6/30/2024 15:12',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #not,
+			#protocol : #'logical operations',
+			#sourceCode : 'not\r    ^Verdadero new.',
+			#stamp : '6/30/2024 15:13',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '26' ],
+		#self : OmReference [ '27' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #esVerdadero,
+			#protocol : #'logical operations',
+			#sourceCode : 'esVerdadero\r    "Devuelve true si es verdadero"\r    ^false.',
+			#stamp : '6/30/2024 15:13',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '27' ],
+		#self : OmReference [ '28' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #esVerdadero,
+			#protocol : #'logical operations',
+			#sourceCode : 'esVerdadero\r    "Devuelve true si es verdadero"\r    ^false.',
+			#stamp : '6/30/2024 15:13',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #esVerdadero,
+			#protocol : #'logical operations',
+			#sourceCode : 'esVerdadero\r    ^false.',
+			#stamp : '6/30/2024 15:13',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '28' ],
+		#self : OmReference [ '29' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #esFalso,
+			#protocol : #'logical operations',
+			#sourceCode : 'esFalso\r    ^true.',
+			#stamp : '6/30/2024 15:13',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '29' ],
+		#self : OmReference [ '30' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #esError,
+			#protocol : #'logical operations',
+			#sourceCode : 'esError\r    ^false.',
+			#stamp : '6/30/2024 15:14',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '30' ],
+		#self : OmReference [ '31' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : #TriBoolean,
+				#definitionSource : 'TriBoolean << #TError\r\tslots: {};\r\tpackage: \'TriValuedLogic\''
+			},
+			#name : #TError,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'TriBoolean class << TError class\r\tslots: {}'
+				},
+				#name : #'TError class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #TError
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #TriValuedLogic,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '31' ],
+		#self : OmReference [ '32' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TError
+			},
+			#name : #'&',
+			#protocol : #'as yet unclassified',
+			#sourceCode : '& aTriBoolean\r    ^aTriBoolean.',
+			#stamp : '6/30/2024 15:15',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '32' ],
+		#self : OmReference [ '33' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : #TriBoolean,
+				#definitionSource : 'TriBoolean << #TError\r\tslots: {};\r\tpackage: \'TriValuedLogic\''
+			},
+			#name : #TError,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'TriBoolean class << TError class\r\tslots: {}'
+				},
+				#name : #'TError class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #TError
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #TriValuedLogic,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'logical operations'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '33' ],
+		#self : OmReference [ '34' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TError
+			},
+			#name : #'&',
+			#protocol : #'as yet unclassified',
+			#sourceCode : '& aTriBoolean\r    ^aTriBoolean.',
+			#stamp : '6/30/2024 15:15',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TError
+			},
+			#name : #'&',
+			#protocol : #'logical operations',
+			#sourceCode : '& aTriBoolean\r    ^aTriBoolean.',
+			#stamp : '6/30/2024 15:15',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '34' ],
+		#self : OmReference [ '35' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TError
+			},
+			#name : #'|',
+			#protocol : #'logical operations',
+			#sourceCode : '| aTriBoolean\r    ^self.',
+			#stamp : '6/30/2024 15:15',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '35' ],
+		#self : OmReference [ '36' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TError
+			},
+			#name : #'and:',
+			#protocol : #'logical operations',
+			#sourceCode : 'and: aBlock\r    ^aBlock value.',
+			#stamp : '6/30/2024 15:16',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '36' ],
+		#self : OmReference [ '37' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TError
+			},
+			#name : #'or:',
+			#protocol : #'logical operations',
+			#sourceCode : 'or: aBlock\r    ^self.',
+			#stamp : '6/30/2024 15:16',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '37' ],
+		#self : OmReference [ '38' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TError
+			},
+			#name : #not,
+			#protocol : #'logical operations',
+			#sourceCode : 'not\r    ^self.',
+			#stamp : '6/30/2024 15:17',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '38' ],
+		#self : OmReference [ '39' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TError
+			},
+			#name : #esVerdadero,
+			#protocol : #'logical operations',
+			#sourceCode : 'esVerdadero\r    ^false.\r',
+			#stamp : '6/30/2024 15:17',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '39' ],
+		#self : OmReference [ '40' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TError
+			},
+			#name : #esFalso,
+			#protocol : #'logical operations',
+			#sourceCode : 'esFalso\r    ^false.',
+			#stamp : '6/30/2024 15:17',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '40' ],
+		#self : OmReference [ '41' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TError
+			},
+			#name : #esError,
+			#protocol : #'logical operations',
+			#sourceCode : 'esError\r    ^true.',
+			#stamp : '6/30/2024 15:18',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '41' ],
+		#self : OmReference [ '42' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Fer\\Documents\\Pharo\\images\\Pharo 12.0 - 64bit (stable)\\Pharo 12.0 - 64bit (stable).image'
+	}
+}

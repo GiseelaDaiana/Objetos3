@@ -1,0 +1,49 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-06-30T14:24:26.247-03:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : 'Object subclass: TriBoolean [\r    "Métodos de instancia comunes a todos los tribooleans"\r    \r    TriBoolean class >> verdadero [\r        ^ Verdadero new.\r    ]\r    \r    TriBoolean class >> falso [\r        ^ Falso new.\r    ]\r    \r    TriBoolean class >> error [\r        ^ Error new.\r    ]\r    \r    "Operaciones lógicas"\r    & other [\r        self subclassResponsibility.\r    ]\r    \r    | other [\r        self subclassResponsibility.\r    ]\r    \r    not [\r        self subclassResponsibility.\r    ]\r    \r    "Métodos de comparación"\r    esVerdadero [\r        ^ false.\r    ]\r    \r    esFalso [\r        ^ false.\r    ]\r    \r    esError [\r        ^ false.\r    ]\r    \r    "Control de flujo"\r    siVerdadero: aBlock [\r        "No hacer nada"\r    ]\r    \r    siFalso: aBlock [\r        "No hacer nada"\r    ]\r    \r    siError: aBlock [\r        "No hacer nada"\r    ]\r    \r    siVerdadero: trueBlock siFalso: falseBlock [\r        self subclassResponsibility.\r    ]\r    \r    siVerdadero: trueBlock siFalso: falseBlock siError: errorBlock [\r        self subclassResponsibility.\r    ]\r]\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-06-30T14:26:30.452-03:00' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : 'Object subclass: TriBoolean [\r    "Métodos de instancia comunes a todos los tribooleans"\r    \r    TriBoolean class >> verdadero [\r        ^ Verdadero new.\r    ]\r    \r    TriBoolean class >> falso [\r        ^ Falso new.\r    ]\r    \r    TriBoolean class >> error [\r        ^ Error new.\r    ]\r    \r]\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-06-30T14:26:51.594-03:00' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : 'Object subclass: #TriBoolean [\r    "Métodos de instancia comunes a todos los tribooleans"\r    \r    TriBoolean class >> verdadero [\r        ^ Verdadero new.\r    ]\r    \r    TriBoolean class >> falso [\r        ^ Falso new.\r    ]\r    \r    TriBoolean class >> error [\r        ^ Error new.\r    ]\r    \r]\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-06-30T14:27:19.332-03:00' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : 'Object subclass: #TriBoolean \r    "Métodos de instancia comunes a todos los tribooleans"\r  '
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-06-30T14:34:42.875-03:00' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : 'Object subclass: Trivaluado [\r  "Clase abstracta para los tres valores de la lógica trivaluada"\r]\r\rTrivaluado subclass: Verdadero [\r  "Representa el valor verdadero"\r]\r\rTrivaluado subclass: Falso [\r  "Representa el valor falso"\r]\r\rTrivaluado subclass: Error [\r  "Representa el valor error"\r]\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-06-30T14:34:57.828-03:00' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : 'Object subclass: Trivaluado.\r\rTrivaluado subclass: Verdadero.\r\rTrivaluado subclass: Falso.\r\rTrivaluado subclass: Error.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-06-30T14:35:13.383-03:00' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : 'Object subclass: #Trivaluado.\r\rTrivaluado subclass: #Verdadero.\r\rTrivaluado subclass: #Falso.\r\rTrivaluado subclass: #Error.\r'
+}OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2024-06-30T14:55:20.466-03:00' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : 'TriBoolean subclass: #Verdadero\r    instanceVariableNames: \'\'\r    classVariableNames: \'\'\r    poolDictionaries: \'\'\r    category: \'TriValuedLogic\'.\r\rTriBoolean subclass: #Falso\r    instanceVariableNames: \'\'\r    classVariableNames: \'\'\r    poolDictionaries: \'\'\r    category: \'TriValuedLogic\'.\r\rTriBoolean subclass: #Error\r    instanceVariableNames: \'\'\r    classVariableNames: \'\'\r    poolDictionaries: \'\'\r    category: \'TriValuedLogic\'.\r'
+}

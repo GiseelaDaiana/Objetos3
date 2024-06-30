@@ -1,0 +1,3314 @@
+OmEntry {
+	#tags : {
+		#prior : OmReference [ 'Pharo12.0-SNAPSHOT-64bit-9d04231.312F1665E340', '42' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Fer\\Documents\\Pharo\\images\\Pharo 12.0 - 64bit (stable)\\Pharo 12.0 - 64bit (stable).1.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '1' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : #Object,
+				#definitionSource : 'Object << #TriBoolean\r\tslots: {};\r\tpackage: \'TriValuedLogic\''
+			},
+			#name : #TriBoolean,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << TriBoolean class\r\tslots: {}'
+				},
+				#name : #'TriBoolean class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #TriBoolean
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #TriValuedLogic,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '2' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'siVerdadero: aBlock\r    self esVerdadero ifTrue: [aBlock value].',
+			#stamp : '6/30/2024 15:19',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '3' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'siVerdadero: aBlock\r    self esVerdadero ifTrue: [aBlock value].',
+			#stamp : '6/30/2024 15:19',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '4' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : #Object,
+				#definitionSource : 'Object << #TriBoolean\r\tslots: {};\r\tpackage: \'TriValuedLogic\''
+			},
+			#name : #TriBoolean,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << TriBoolean class\r\tslots: {}'
+				},
+				#name : #'TriBoolean class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #TriBoolean
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #TriValuedLogic,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '5' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'siVerdadero: aBlock\r    "Ejecuta el bloque si es verdadero"\r    self esVerdadero ifTrue: [aBlock value].',
+			#stamp : '6/30/2024 15:23',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '6' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'siVerdadero: aBlock\r    "Ejecuta el bloque si es verdadero"\r    self esVerdadero ifTrue: [aBlock value].',
+			#stamp : '6/30/2024 15:23',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '7' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : #Object,
+				#definitionSource : 'Object << #TriBoolean\r\tslots: {};\r\tpackage: \'TriValuedLogic\''
+			},
+			#name : #TriBoolean,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << TriBoolean class\r\tslots: {}'
+				},
+				#name : #'TriBoolean class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #TriBoolean
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #TriValuedLogic,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '8' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'siVerdadero: aBlock\r    "Ejecuta el bloque si es verdadero"\r    self esVerdadero ifTrue: [aBlock value].',
+			#stamp : '6/30/2024 15:25',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '9' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'siVerdadero: aBlock\r    "Ejecuta el bloque si es verdadero"\r    self esVerdadero ifTrue: [aBlock value].',
+			#stamp : '6/30/2024 15:25',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'siVerdadero: aBlock\r    self esVerdadero ifTrue: [aBlock value].',
+			#stamp : '6/30/2024 15:25',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '10' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'siVerdadero: aBlock\r    self esVerdadero ifTrue: [aBlock value].',
+			#stamp : '6/30/2024 15:25',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '11' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : #Object,
+				#definitionSource : 'Object << #TriBoolean\r\tslots: {};\r\tpackage: \'TriValuedLogic\''
+			},
+			#name : #TriBoolean,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << TriBoolean class\r\tslots: {}'
+				},
+				#name : #'TriBoolean class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #TriBoolean
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #TriValuedLogic,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '12' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'siVerdadero: aBlock\r    "Ejecuta el bloque si es verdadero"\r    self esVerdadero ifTrue: [aBlock value].',
+			#stamp : '6/30/2024 15:29',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '13' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'siVerdadero: aBlock\r    "Ejecuta el bloque si es verdadero"\r    self esVerdadero ifTrue: [aBlock value].',
+			#stamp : '6/30/2024 15:30',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'siVerdadero: aBlock\r    self esVerdadero ifTrue: [aBlock value].',
+			#stamp : '6/30/2024 15:30',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '14' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Fer\\Documents\\Pharo\\images\\Pharo 12.0 - 64bit (stable)\\Pharo 12.0 - 64bit (stable).1.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '15' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #esVerdadero,
+			#protocol : #'logical operations',
+			#sourceCode : 'esVerdadero\r    "Devuelve true si es verdadero"\r    ^true.',
+			#stamp : '6/30/2024 15:09',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #esVerdadero,
+			#protocol : #'logical operations',
+			#sourceCode : 'esVerdadero\r    ^true.',
+			#stamp : '6/30/2024 15:32',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '16' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'siVerdadero: aBlock\r    self esVerdadero ifTrue: [aBlock value].',
+			#stamp : '6/30/2024 15:33',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '17' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : #Object,
+				#definitionSource : 'Object << #TriBoolean\r\tslots: {};\r\tpackage: \'TriValuedLogic\''
+			},
+			#name : #TriBoolean,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << TriBoolean class\r\tslots: {}'
+				},
+				#name : #'TriBoolean class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #TriBoolean
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #TriValuedLogic,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '18' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siFalso:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'siFalso: aBlock\r    "Ejecuta el bloque si es falso"\r    self esFalso ifTrue: [aBlock value].',
+			#stamp : '6/30/2024 15:34',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '19' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siError:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'siError: aBlock\r    "Ejecuta el bloque si es error"\r    self esError ifTrue: [aBlock value].',
+			#stamp : '6/30/2024 15:34',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '20' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:siFalso:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'siVerdadero: trueBlock siFalso: falseBlock\r    "Ejecuta el bloque trueBlock si es verdadero, falseBlock si es falso"\r    self esVerdadero ifTrue: [^trueBlock value].\r    self esFalso ifTrue: [^falseBlock value].',
+			#stamp : '6/30/2024 15:34',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '21' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:siFalso:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'siVerdadero: trueBlock siFalso: falseBlock\r    "Ejecuta el bloque trueBlock si es verdadero, falseBlock si es falso"\r    self esVerdadero ifTrue: [^trueBlock value].\r    self esFalso ifTrue: [^falseBlock value].',
+			#stamp : '6/30/2024 15:34',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '22' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siError:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'siError: aBlock\r    "Ejecuta el bloque si es error"\r    self esError ifTrue: [aBlock value].',
+			#stamp : '6/30/2024 15:34',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '23' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siFalso:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'siFalso: aBlock\r    "Ejecuta el bloque si es falso"\r    self esFalso ifTrue: [aBlock value].',
+			#stamp : '6/30/2024 15:34',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '24' ],
+		#self : OmReference [ '25' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : #Object,
+				#definitionSource : 'Object << #TriBoolean\r\tslots: {};\r\tpackage: \'TriValuedLogic\''
+			},
+			#name : #TriBoolean,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << TriBoolean class\r\tslots: {}'
+				},
+				#name : #'TriBoolean class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #TriBoolean
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #TriValuedLogic,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '25' ],
+		#self : OmReference [ '26' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #esVerdadero,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'esVerdadero\r    self subclassResponsibility.',
+			#stamp : '6/30/2024 15:36',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '26' ],
+		#self : OmReference [ '27' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : #Object,
+				#definitionSource : 'Object << #TriBoolean\r\tslots: {};\r\tpackage: \'TriValuedLogic\''
+			},
+			#name : #TriBoolean,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << TriBoolean class\r\tslots: {}'
+				},
+				#name : #'TriBoolean class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #TriBoolean
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #TriValuedLogic,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'logical operations'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '27' ],
+		#self : OmReference [ '28' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #esVerdadero,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'esVerdadero\r    self subclassResponsibility.',
+			#stamp : '6/30/2024 15:36',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #esVerdadero,
+			#protocol : #'logical operations',
+			#sourceCode : 'esVerdadero\r    self subclassResponsibility.',
+			#stamp : '6/30/2024 15:36',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '28' ],
+		#self : OmReference [ '29' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #esFalso,
+			#protocol : #'logical operations',
+			#sourceCode : 'esFalso\r    self subclassResponsibility.',
+			#stamp : '6/30/2024 15:36',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '29' ],
+		#self : OmReference [ '30' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #esError,
+			#protocol : #'logical operations',
+			#sourceCode : 'esError\r    self subclassResponsibility.',
+			#stamp : '6/30/2024 15:36',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '30' ],
+		#self : OmReference [ '31' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:',
+			#protocol : #'logical operations',
+			#sourceCode : 'siVerdadero: aBlock\r    "Ejecuta el bloque si es verdadero"\r    self esVerdadero ifTrue: [aBlock value].',
+			#stamp : '6/30/2024 15:37',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '31' ],
+		#self : OmReference [ '32' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:',
+			#protocol : #'logical operations',
+			#sourceCode : 'siVerdadero: aBlock\r    "Ejecuta el bloque si es verdadero"\r    self esVerdadero ifTrue: [aBlock value].',
+			#stamp : '6/30/2024 15:37',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:',
+			#protocol : #'logical operations',
+			#sourceCode : 'siVerdadero: aBlock\r    self esVerdadero ifTrue: [aBlock value].',
+			#stamp : '6/30/2024 15:37',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '32' ],
+		#self : OmReference [ '33' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siFalso:',
+			#protocol : #'logical operations',
+			#sourceCode : 'siFalso: aBlock\r    self esFalso ifTrue: [aBlock value].',
+			#stamp : '6/30/2024 15:38',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '33' ],
+		#self : OmReference [ '34' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siError:',
+			#protocol : #'logical operations',
+			#sourceCode : 'siError: aBlock\r    self esError ifTrue: [aBlock value].',
+			#stamp : '6/30/2024 15:38',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '34' ],
+		#self : OmReference [ '35' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:siFalso:',
+			#protocol : #'logical operations',
+			#sourceCode : 'siVerdadero: trueBlock siFalso: falseBlock\r    self esVerdadero ifTrue: [^trueBlock value].\r    self esFalso ifTrue: [^falseBlock value].',
+			#stamp : '6/30/2024 15:38',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '35' ],
+		#self : OmReference [ '36' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:siError:',
+			#protocol : #'logical operations',
+			#sourceCode : 'siVerdadero: trueBlock siError: errorBlock\r    self esVerdadero ifTrue: [^trueBlock value].\r    self esError ifTrue: [^errorBlock value].',
+			#stamp : '6/30/2024 15:38',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '36' ],
+		#self : OmReference [ '37' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:siFalso:siError:',
+			#protocol : #'logical operations',
+			#sourceCode : 'siVerdadero: trueBlock siFalso: falseBlock siError: errorBlock\r    self esVerdadero ifTrue: [^trueBlock value].\r    self esFalso ifTrue: [^falseBlock value].\r    self esError ifTrue: [^errorBlock value].',
+			#stamp : '6/30/2024 15:38',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '37' ],
+		#self : OmReference [ '38' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TError
+			},
+			#name : #'&',
+			#protocol : #'logical operations',
+			#sourceCode : '& aTriBoolean\r    ^aTriBoolean.',
+			#stamp : '6/30/2024 15:15',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TError
+			},
+			#name : #'&',
+			#protocol : #'logical operations',
+			#sourceCode : '& aTriBoolean\r    ^self.',
+			#stamp : '6/30/2024 16:17',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '38' ],
+		#self : OmReference [ '39' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #'&',
+			#protocol : #'logical operations',
+			#sourceCode : '& aTriBoolean\r    ^aTriBoolean.',
+			#stamp : '6/30/2024 15:11',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #'&',
+			#protocol : #'logical operations',
+			#sourceCode : '& aTriBoolean\r    ^self.',
+			#stamp : '6/30/2024 16:18',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '39' ],
+		#self : OmReference [ '40' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #'|',
+			#protocol : #'logical operations',
+			#sourceCode : '| aTriBoolean\r    ^self.',
+			#stamp : '6/30/2024 15:12',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #'|',
+			#protocol : #'logical operations',
+			#sourceCode : '| aTriBoolean\r    ^aTriBoolean.',
+			#stamp : '6/30/2024 16:19',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '40' ],
+		#self : OmReference [ '41' ]
+	},
+	#content : EpPackageTagAddition {
+		#packageTagName : #Tests,
+		#packageName : #TriValuedLogic
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '41' ],
+		#self : OmReference [ '42' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : #TestCase,
+				#definitionSource : 'TestCase << #TriBooleanTest\r\tslots: {};\r\ttag: \'Tests\';\r\tpackage: \'TriValuedLogic\''
+			},
+			#name : #TriBooleanTest,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'TestCase class << TriBooleanTest class\r\tslots: {}'
+				},
+				#name : #'TriBooleanTest class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #TriBooleanTest
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #TriValuedLogic,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Tests,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '42' ],
+		#self : OmReference [ '43' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : #TestCase,
+				#definitionSource : 'TestCase << #TriBooleanTest\r\tslots: {};\r\ttag: \'Tests\';\r\tpackage: \'TriValuedLogic\''
+			},
+			#name : #TriBooleanTest,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'TestCase class << TriBooleanTest class\r\tslots: {}'
+				},
+				#name : #'TriBooleanTest class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #TriBooleanTest
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #TriValuedLogic,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Tests,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '43' ],
+		#self : OmReference [ '44' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBooleanTest
+			},
+			#name : #testAndOperation,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'testAndOperation\r    | v f e |\r    v := Verdadero new.\r    f := Falso new.\r    e := Error new.\r    self assert: (v & v) = v.\r    self assert: (v & f) = f.\r    self assert: (v & e) = e.\r    self assert: (f & v) = f.\r    self assert: (f & f) = f.\r    self assert: (f & e) = f.\r    self assert: (e & v) = e.\r    self assert: (e & f) = e.\r    self assert: (e & e) = e.',
+			#stamp : '6/30/2024 16:24',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '44' ],
+		#self : OmReference [ '45' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : #TestCase,
+				#definitionSource : 'TestCase << #TriBooleanTest\r\tslots: {};\r\ttag: \'Tests\';\r\tpackage: \'TriValuedLogic\''
+			},
+			#name : #TriBooleanTest,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'TestCase class << TriBooleanTest class\r\tslots: {}'
+				},
+				#name : #'TriBooleanTest class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #TriBooleanTest
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #TriValuedLogic,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Tests,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #tests
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '45' ],
+		#self : OmReference [ '46' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBooleanTest
+			},
+			#name : #testAndOperation,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'testAndOperation\r    | v f e |\r    v := Verdadero new.\r    f := Falso new.\r    e := Error new.\r    self assert: (v & v) = v.\r    self assert: (v & f) = f.\r    self assert: (v & e) = e.\r    self assert: (f & v) = f.\r    self assert: (f & f) = f.\r    self assert: (f & e) = f.\r    self assert: (e & v) = e.\r    self assert: (e & f) = e.\r    self assert: (e & e) = e.',
+			#stamp : '6/30/2024 16:24',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBooleanTest
+			},
+			#name : #testAndOperation,
+			#protocol : #tests,
+			#sourceCode : 'testAndOperation\r    | v f e |\r    v := Verdadero new.\r    f := Falso new.\r    e := Error new.\r    self assert: (v & v) = v.\r    self assert: (v & f) = f.\r    self assert: (v & e) = e.\r    self assert: (f & v) = f.\r    self assert: (f & f) = f.\r    self assert: (f & e) = f.\r    self assert: (e & v) = e.\r    self assert: (e & f) = e.\r    self assert: (e & e) = e.',
+			#stamp : '6/30/2024 16:24',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '46' ],
+		#self : OmReference [ '47' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBooleanTest
+			},
+			#name : #testAndOperation,
+			#protocol : #tests,
+			#sourceCode : 'testAndOperation\r    | v f e |\r    v := Verdadero new.\r    f := Falso new.\r    e := Error new.\r    self assert: (v & v) = v.\r    self assert: (v & f) = f.\r    self assert: (v & e) = e.\r    self assert: (f & v) = f.\r    self assert: (f & f) = f.\r    self assert: (f & e) = f.\r    self assert: (e & v) = e.\r    self assert: (e & f) = e.\r    self assert: (e & e) = e.',
+			#stamp : '6/30/2024 16:24',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBooleanTest
+			},
+			#name : #testAndOperation,
+			#protocol : #tests,
+			#sourceCode : 'testAndOperation\r    | v f e |\r    v := Verdadero new.\r    f := Falso new.\r    e := TError new.\r    self assert: (v & v) = v.\r    self assert: (v & f) = f.\r    self assert: (v & e) = e.\r    self assert: (f & v) = f.\r    self assert: (f & f) = f.\r    self assert: (f & e) = f.\r    self assert: (e & v) = e.\r    self assert: (e & f) = e.\r    self assert: (e & e) = e.',
+			#stamp : '6/30/2024 16:25',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '47' ],
+		#self : OmReference [ '48' ]
+	},
+	#content : EpPackageTagRemoval {
+		#packageTagName : #Tests,
+		#packageName : #TriValuedLogic
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '48' ],
+		#self : OmReference [ '49' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBooleanTest
+			},
+			#name : #testAndOperation,
+			#protocol : #tests,
+			#sourceCode : 'testAndOperation\r    | v f e |\r    v := Verdadero new.\r    f := Falso new.\r    e := TError new.\r    self assert: (v & v) = v.\r    self assert: (v & f) = f.\r    self assert: (v & e) = e.\r    self assert: (f & v) = f.\r    self assert: (f & f) = f.\r    self assert: (f & e) = f.\r    self assert: (e & v) = e.\r    self assert: (e & f) = e.\r    self assert: (e & e) = e.',
+			#stamp : '6/30/2024 16:25',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '49' ],
+		#self : OmReference [ '50' ]
+	},
+	#content : EpClassRemoval {
+		#classRemoved : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : #TestCase,
+				#definitionSource : 'TestCase << #TriBooleanTest\r\tslots: {};\r\ttag: \'Tests\';\r\tpackage: \'TriValuedLogic\''
+			},
+			#name : #TriBooleanTest,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'TestCase class << TriBooleanTest class\r\tslots: {}'
+				},
+				#name : #'AnObsoleteTriBooleanTest class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #AnObsoleteTriBooleanTest
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : #TriValuedLogic,
+			#packageTag : #Tests,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '50' ],
+		#self : OmReference [ '51' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #not,
+			#protocol : #'logical operations',
+			#sourceCode : 'not\r    "Realiza la operación lógica NOT"\r    ^Falso new.',
+			#stamp : '6/30/2024 15:09',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #not,
+			#protocol : #'logical operations',
+			#sourceCode : 'not\r    ^Falso new.',
+			#stamp : '6/30/2024 16:30',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '51' ],
+		#self : OmReference [ '52' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TError
+			},
+			#name : #'and:',
+			#protocol : #'logical operations',
+			#sourceCode : 'and: aBlock\r    ^aBlock value.',
+			#stamp : '6/30/2024 15:16',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TError
+			},
+			#name : #'and:',
+			#protocol : #'logical operations',
+			#sourceCode : 'and: aTriBoolean\r    ^aTriBoolean value.',
+			#stamp : '6/30/2024 16:43',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '52' ],
+		#self : OmReference [ '53' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TError
+			},
+			#name : #'or:',
+			#protocol : #'logical operations',
+			#sourceCode : 'or: aBlock\r    ^self.',
+			#stamp : '6/30/2024 15:16',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TError
+			},
+			#name : #'or:',
+			#protocol : #'logical operations',
+			#sourceCode : 'or: aTriBoolean\r    ^self.',
+			#stamp : '6/30/2024 16:44',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '53' ],
+		#self : OmReference [ '54' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #'or:',
+			#protocol : #'logical operations',
+			#sourceCode : 'or: aBlock\r    ^self.',
+			#stamp : '6/30/2024 15:12',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #'or:',
+			#protocol : #'logical operations',
+			#sourceCode : 'or: aTriBoolean\r    ^self.',
+			#stamp : '6/30/2024 16:44',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '54' ],
+		#self : OmReference [ '55' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #'and:',
+			#protocol : #'logical operations',
+			#sourceCode : 'and: aBlock\r    ^aBlock value.',
+			#stamp : '6/30/2024 15:12',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #'and:',
+			#protocol : #'logical operations',
+			#sourceCode : 'and: aTriBoolean\r    ^aTriBoolean value.',
+			#stamp : '6/30/2024 16:44',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '55' ],
+		#self : OmReference [ '56' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #'or:',
+			#protocol : #'logical operations',
+			#sourceCode : 'or: aBlock\r    "Realiza la operación lógica OR con circuito largo"\r    ^self.',
+			#stamp : '6/30/2024 15:09',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #'or:',
+			#protocol : #'logical operations',
+			#sourceCode : 'or: aTriBoolean\r    ^self.',
+			#stamp : '6/30/2024 16:44',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '56' ],
+		#self : OmReference [ '57' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #esFalso,
+			#protocol : #'logical operations',
+			#sourceCode : 'esFalso\r    "Devuelve false si es falso"\r    ^false.',
+			#stamp : '6/30/2024 15:09',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #esFalso,
+			#protocol : #'logical operations',
+			#sourceCode : 'esFalso\r    ^false.',
+			#stamp : '6/30/2024 16:44',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '57' ],
+		#self : OmReference [ '58' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #esError,
+			#protocol : #'logical operations',
+			#sourceCode : 'esError\r    "Devuelve false si es error"\r    ^false.',
+			#stamp : '6/30/2024 15:10',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #esError,
+			#protocol : #'logical operations',
+			#sourceCode : 'esError\r    ^false.',
+			#stamp : '6/30/2024 16:45',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '58' ],
+		#self : OmReference [ '59' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #'and:',
+			#protocol : #'logical operations',
+			#sourceCode : 'and: aBlock\r    "Realiza la operación lógica AND con circuito largo"\r    ^aBlock value.',
+			#stamp : '6/30/2024 15:09',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #'and:',
+			#protocol : #'logical operations',
+			#sourceCode : 'and: aTriBoolean\r    ^aTriBoolean value.',
+			#stamp : '6/30/2024 16:45',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '59' ],
+		#self : OmReference [ '60' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #'|',
+			#protocol : #'logical operations',
+			#sourceCode : '| aTriBoolean\r    "Realiza la operación lógica OR con circuito corto"\r    ^self.',
+			#stamp : '6/30/2024 15:09',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #'|',
+			#protocol : #'logical operations',
+			#sourceCode : '| aTriBoolean\r    ^self.',
+			#stamp : '6/30/2024 16:45',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '60' ],
+		#self : OmReference [ '61' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #'&',
+			#protocol : #'logical operations',
+			#sourceCode : '& aTriBoolean\r    "Realiza la operación lógica AND con circuito corto"\r    ^aTriBoolean.\r',
+			#stamp : '6/30/2024 15:05',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #'&',
+			#protocol : #'logical operations',
+			#sourceCode : '& aTriBoolean\r    ^aTriBoolean.\r',
+			#stamp : '6/30/2024 16:45',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '61' ],
+		#self : OmReference [ '62' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #'or:',
+			#protocol : #'logical operations',
+			#sourceCode : 'or: aTriBoolean\r    ^self.',
+			#stamp : '6/30/2024 16:44',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #'or:',
+			#protocol : #'logical operations',
+			#sourceCode : 'or: aTriBoolean\r    ^aTriBoolean.',
+			#stamp : '6/30/2024 17:05',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '62' ],
+		#self : OmReference [ '63' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #'and:',
+			#protocol : #'logical operations',
+			#sourceCode : 'and: aTriBoolean\r    ^aTriBoolean value.',
+			#stamp : '6/30/2024 16:44',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #'and:',
+			#protocol : #'logical operations',
+			#sourceCode : 'and: aTriBoolean\r    ^self value.',
+			#stamp : '6/30/2024 17:06',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '63' ],
+		#self : OmReference [ '64' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #'or:',
+			#protocol : #'logical operations',
+			#sourceCode : 'or: aTriBoolean\r    ^self.',
+			#stamp : '6/30/2024 16:44',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Verdadero
+			},
+			#name : #'or:',
+			#protocol : #'logical operations',
+			#sourceCode : 'or: aTriBoolean\r\t aTriBoolean esError ifTrue: [^aTriBoolean].\r    ^self.',
+			#stamp : '6/30/2024 17:16',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '64' ],
+		#self : OmReference [ '65' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TError
+			},
+			#name : #'and:',
+			#protocol : #'logical operations',
+			#sourceCode : 'and: aTriBoolean\r    ^aTriBoolean value.',
+			#stamp : '6/30/2024 16:43',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TError
+			},
+			#name : #'and:',
+			#protocol : #'logical operations',
+			#sourceCode : 'and: aTriBoolean\r    ^self value.',
+			#stamp : '6/30/2024 17:19',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '65' ],
+		#self : OmReference [ '66' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #'and:',
+			#protocol : #'logical operations',
+			#sourceCode : 'and: aTriBoolean\r    ^self value.',
+			#stamp : '6/30/2024 17:06',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #Falso
+			},
+			#name : #'and:',
+			#protocol : #'logical operations',
+			#sourceCode : 'and: aTriBoolean\r\t aTriBoolean esError ifTrue: [^aTriBoolean value].\r    ^self value.',
+			#stamp : '6/30/2024 17:23',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '66' ],
+		#self : OmReference [ '67' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:siFalso:',
+			#protocol : #'logical operations',
+			#sourceCode : 'siVerdadero: trueBlock siFalso: falseBlock\r    self esVerdadero ifTrue: [^trueBlock value].\r    self esFalso ifTrue: [^falseBlock value].',
+			#stamp : '6/30/2024 15:38',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:siFalso:',
+			#protocol : #'logical operations',
+			#sourceCode : 'siVerdadero: trueTriBoolean siFalso: falseTriBoolean\r    self esVerdadero ifTrue: [^trueTriBoolean value].\r    self esFalso ifTrue: [^falseTriBoolean value].',
+			#stamp : '6/30/2024 17:25',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '67' ],
+		#self : OmReference [ '68' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:siError:',
+			#protocol : #'logical operations',
+			#sourceCode : 'siVerdadero: trueBlock siError: errorBlock\r    self esVerdadero ifTrue: [^trueBlock value].\r    self esError ifTrue: [^errorBlock value].',
+			#stamp : '6/30/2024 15:38',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:siError:',
+			#protocol : #'logical operations',
+			#sourceCode : 'siVerdadero: trueTriBoolean siError: errorTriBoolean\r    self esVerdadero ifTrue: [^trueTriBoolean value].\r    self esError ifTrue: [^errorTriBoolean value].',
+			#stamp : '6/30/2024 17:25',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '68' ],
+		#self : OmReference [ '69' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:',
+			#protocol : #'logical operations',
+			#sourceCode : 'siVerdadero: aBlock\r    self esVerdadero ifTrue: [aBlock value].',
+			#stamp : '6/30/2024 15:37',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:',
+			#protocol : #'logical operations',
+			#sourceCode : 'siVerdadero: aTriBoolean\r    self esVerdadero ifTrue: [aTriBoolean value].',
+			#stamp : '6/30/2024 17:25',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '69' ],
+		#self : OmReference [ '70' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Fer\\Documents\\Pharo\\images\\Pharo 12.0 - 64bit (stable)\\Pharo 12.0 - 64bit (stable).1.image'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '70' ],
+		#self : OmReference [ '71' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siError:',
+			#protocol : #'logical operations',
+			#sourceCode : 'siError: aBlock\r    self esError ifTrue: [aBlock value].',
+			#stamp : '6/30/2024 15:38',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siError:',
+			#protocol : #'logical operations',
+			#sourceCode : 'siError: aTriBoolean\r    self esError ifTrue: [aTriBoolean value].',
+			#stamp : '6/30/2024 17:26',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '71' ],
+		#self : OmReference [ '72' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siFalso:',
+			#protocol : #'logical operations',
+			#sourceCode : 'siFalso: aBlock\r    self esFalso ifTrue: [aBlock value].',
+			#stamp : '6/30/2024 15:38',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siFalso:',
+			#protocol : #'logical operations',
+			#sourceCode : 'siFalso: aTriBoolean\r    self esFalso ifTrue: [aTriBoolean value].',
+			#stamp : '6/30/2024 17:26',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '72' ],
+		#self : OmReference [ '73' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:siFalso:siError:',
+			#protocol : #'logical operations',
+			#sourceCode : 'siVerdadero: trueBlock siFalso: falseBlock siError: errorBlock\r    self esVerdadero ifTrue: [^trueBlock value].\r    self esFalso ifTrue: [^falseBlock value].\r    self esError ifTrue: [^errorBlock value].',
+			#stamp : '6/30/2024 15:38',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #TriBoolean
+			},
+			#name : #'siVerdadero:siFalso:siError:',
+			#protocol : #'logical operations',
+			#sourceCode : 'siVerdadero: trueTriBoolean siFalso: falseTriBoolean siError: errorTriBoolean\r    self esVerdadero ifTrue: [^trueTriBoolean value].\r    self esFalso ifTrue: [^falseTriBoolean value].\r    self esError ifTrue: [^errorTriBoolean value].',
+			#stamp : '6/30/2024 17:26',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '73' ],
+		#self : OmReference [ '74' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : #Object,
+				#definitionSource : 'Object << #ComplexNumber\r\tslots: {};\r\tpackage: \'TriValuedLogic\''
+			},
+			#name : #ComplexNumber,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << ComplexNumber class\r\tslots: {}'
+				},
+				#name : #'ComplexNumber class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #ComplexNumber
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #TriValuedLogic,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '74' ],
+		#self : OmReference [ '75' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : #Object,
+				#definitionSource : 'Object << #ComplexNumber\r\tslots: {};\r\tpackage: \'TriValuedLogic\''
+			},
+			#name : #ComplexNumber,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << ComplexNumber class\r\tslots: {}'
+				},
+				#name : #'ComplexNumber class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #ComplexNumber
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #TriValuedLogic,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '75' ],
+		#self : OmReference [ '76' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'real:imaginary:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'real: aReal imaginary: anImaginary\r    ^self new initializeReal: aReal imaginary: anImaginary.',
+			#stamp : '6/30/2024 17:31',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '76' ],
+		#self : OmReference [ '77' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'real:imaginary:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'real: aReal imaginary: anImaginary\r    ^self new initializeReal: aReal imaginary: anImaginary.',
+			#stamp : '6/30/2024 17:31',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '77' ],
+		#self : OmReference [ '78' ]
+	},
+	#content : EpClassRemoval {
+		#classRemoved : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : #Object,
+				#definitionSource : 'Object << #ComplexNumber\r\tslots: {};\r\tpackage: \'TriValuedLogic\''
+			},
+			#name : #ComplexNumber,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << ComplexNumber class\r\tslots: {}'
+				},
+				#name : #'AnObsoleteComplexNumber class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #AnObsoleteComplexNumber
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : #TriValuedLogic,
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '78' ],
+		#self : OmReference [ '79' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : #Object,
+				#definitionSource : 'Object << #ComplexNumber\r\tslots: { #real . #imaginary };\r\tpackage: \'TriValuedLogic\''
+			},
+			#name : #ComplexNumber,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #ComplexNumber
+					},
+					#name : #real,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #ComplexNumber
+					},
+					#name : #imaginary,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << ComplexNumber class\r\tslots: {}'
+				},
+				#name : #'ComplexNumber class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #ComplexNumber
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #TriValuedLogic,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '79' ],
+		#self : OmReference [ '80' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : #Object,
+				#definitionSource : 'Object << #ComplexNumber\r\tslots: { #real . #imaginary };\r\tpackage: \'TriValuedLogic\''
+			},
+			#name : #ComplexNumber,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #ComplexNumber
+					},
+					#name : #real,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #ComplexNumber
+					},
+					#name : #imaginary,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << ComplexNumber class\r\tslots: {}'
+				},
+				#name : #'ComplexNumber class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #ComplexNumber
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #TriValuedLogic,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #'as yet unclassified'
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '80' ],
+		#self : OmReference [ '81' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'real:imaginary:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'real: aReal imaginary: anImaginary\r    ^self new initializeReal: aReal imaginary: anImaginary.',
+			#stamp : '6/30/2024 17:43',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '81' ],
+		#self : OmReference [ '82' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'angle:radius:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'angle: anAngle radius: aRadius\r    ^self new initializeAngle: anAngle radius: aRadius.',
+			#stamp : '6/30/2024 17:45',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '82' ],
+		#self : OmReference [ '83' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'initializeReal:imaginary:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initializeReal: aReal imaginary: anImaginary\r    real := aReal.\r    imaginary := anImaginary.',
+			#stamp : '6/30/2024 17:45',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '83' ],
+		#self : OmReference [ '84' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'initializeAngle:radius:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initializeAngle: anAngle radius: aRadius\r    real := aRadius * (anAngle cos).\r    imaginary := aRadius * (anAngle sin).',
+			#stamp : '6/30/2024 17:46',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '84' ],
+		#self : OmReference [ '85' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #real,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'real\r    ^real.',
+			#stamp : '6/30/2024 17:47',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '85' ],
+		#self : OmReference [ '86' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #imaginary,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'imaginary\r    ^imaginary.',
+			#stamp : '6/30/2024 17:47',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '86' ],
+		#self : OmReference [ '87' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #angle,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'angle\r    ^(imaginary / real) arcTan.',
+			#stamp : '6/30/2024 17:48',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '87' ],
+		#self : OmReference [ '88' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #radius,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'radius\r    ^(real squared + imaginary squared) sqrt.',
+			#stamp : '6/30/2024 17:48',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '88' ],
+		#self : OmReference [ '89' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'+',
+			#protocol : #'as yet unclassified',
+			#sourceCode : '+ aNumber\r    ^ComplexNumber real: (real + aNumber real) imaginary: (imaginary + aNumber imaginary).\r',
+			#stamp : '6/30/2024 17:49',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '89' ],
+		#self : OmReference [ '90' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #-,
+			#protocol : #'as yet unclassified',
+			#sourceCode : '- aNumber\r    ^ComplexNumber real: (real - aNumber real) imaginary: (imaginary - aNumber imaginary).\r\r',
+			#stamp : '6/30/2024 17:49',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '90' ],
+		#self : OmReference [ '91' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'*',
+			#protocol : #'as yet unclassified',
+			#sourceCode : '* aNumber\r    | newReal newImaginary |\r    newReal := (real * aNumber real) - (imaginary * aNumber imaginary).\r    newImaginary := (real * aNumber imaginary) + (imaginary * aNumber real).\r    ^ComplexNumber real: newReal imaginary: newImaginary.\r\r',
+			#stamp : '6/30/2024 17:49',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '91' ],
+		#self : OmReference [ '92' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #/,
+			#protocol : #'as yet unclassified',
+			#sourceCode : '/ aNumber\r    | divisor newReal newImaginary |\r    divisor := (aNumber real squared + aNumber imaginary squared).\r    newReal := ((real * aNumber real) + (imaginary * aNumber imaginary)) / divisor.\r    newImaginary := ((imaginary * aNumber real) - (real * aNumber imaginary)) / divisor.\r    ^ComplexNumber real: newReal imaginary: newImaginary.\r\r',
+			#stamp : '6/30/2024 17:50',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '92' ],
+		#self : OmReference [ '93' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'initializeReal:imaginary:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initializeReal: aReal imaginary: anImaginary\r    real := aReal.\r    imaginary := anImaginary.',
+			#stamp : '6/30/2024 17:45',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'initializeReal:imaginary:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initializeReal: aReal imaginary: anImaginary [\r    real := aReal.\r    imaginary := anImaginary.\r]\r',
+			#stamp : '6/30/2024 18:01',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '93' ],
+		#self : OmReference [ '94' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#traitCompositionSource : '{}',
+				#superclassName : #Object,
+				#definitionSource : 'Object << #ComplexNumber\r\tslots: { #real . #imaginary };\r\tpackage: \'TriValuedLogic\''
+			},
+			#name : #ComplexNumber,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #ComplexNumber
+					},
+					#name : #real,
+					#parent : @6
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#isMeta : false,
+						#className : #ComplexNumber
+					},
+					#name : #imaginary,
+					#parent : @6
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#traitCompositionSource : '{}',
+					#definitionSource : 'Object class << ComplexNumber class\r\tslots: {}'
+				},
+				#name : #'ComplexNumber class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @6
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#isMeta : false,
+					#className : #ComplexNumber
+				},
+				#parent : @6,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#package : RGPackageDefinition {
+				#name : #TriValuedLogic,
+				#definedClasses : IdentityDictionary { },
+				#definedMethods : IdentityDictionary { },
+				#extensionMethods : IdentityDictionary { }
+			},
+			#packageTag : #Uncategorized,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #initialization
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '94' ],
+		#self : OmReference [ '95' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'initializeReal:imaginary:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initializeReal: aReal imaginary: anImaginary [\r    real := aReal.\r    imaginary := anImaginary.\r]\r',
+			#stamp : '6/30/2024 18:01',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'initializeReal:imaginary:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeReal: aReal imaginary: anImaginary [\r    real := aReal.\r    imaginary := anImaginary.\r]\r',
+			#stamp : '6/30/2024 18:01',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '95' ],
+		#self : OmReference [ '96' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'real:imaginary:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'real: aReal imaginary: anImaginary [\r    ^self new initializeReal: aReal imaginary: anImaginary\r]',
+			#stamp : '6/30/2024 18:02',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'real:imaginary:',
+			#protocol : #initialization,
+			#sourceCode : 'real: aReal imaginary: anImaginary [\r    ^self new initializeReal: aReal imaginary: anImaginary\r]',
+			#stamp : '6/30/2024 18:02',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '96' ],
+		#self : OmReference [ '97' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'real:imaginary:',
+			#protocol : #initialization,
+			#sourceCode : 'real: aReal imaginary: anImaginary\r    ^self new initializeReal: aReal imaginary: anImaginary.',
+			#stamp : '6/30/2024 17:43',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'real:imaginary:',
+			#protocol : #initialization,
+			#sourceCode : 'real: aReal imaginary: anImaginary [\r    ^self new initializeReal: aReal imaginary: anImaginary\r]',
+			#stamp : '6/30/2024 18:02',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '97' ],
+		#self : OmReference [ '98' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'initializeReal:imaginary:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeReal: aReal imaginary: anImaginary [\r    real := aReal.\r    imaginary := anImaginary.\r]\r',
+			#stamp : '6/30/2024 18:01',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'initializeReal:imaginary:',
+			#protocol : #initialization,
+			#sourceCode : 'initializeReal: aReal imaginary: anImaginary \r    real := aReal.\r    imaginary := anImaginary.\r\r',
+			#stamp : '6/30/2024 18:08',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '98' ],
+		#self : OmReference [ '99' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'real:imaginary:',
+			#protocol : #initialization,
+			#sourceCode : 'real: aReal imaginary: anImaginary [\r    ^self new initializeReal: aReal imaginary: anImaginary\r]',
+			#stamp : '6/30/2024 18:02',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'real:imaginary:',
+			#protocol : #initialization,
+			#sourceCode : 'real: aReal imaginary: anImaginary \r    ^self new initializeReal: aReal imaginary: anImaginary',
+			#stamp : '6/30/2024 18:09',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '99' ],
+		#self : OmReference [ '100' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'real:imaginary:',
+			#protocol : #initialization,
+			#sourceCode : 'real: aReal imaginary: anImaginary \r    ^self new initializeReal: aReal imaginary: anImaginary',
+			#stamp : '6/30/2024 18:09',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'real:imaginary:',
+			#protocol : #initialization,
+			#sourceCode : 'real: aReal imaginary: anImaginary \r    ^self new initializeReal: aReal imaginary: anImaginary.',
+			#stamp : '6/30/2024 18:09',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '100' ],
+		#self : OmReference [ '101' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'real:imaginary:',
+			#protocol : #initialization,
+			#sourceCode : 'real: aReal imaginary: anImaginary \r    ^self new initializeReal: aReal imaginary: anImaginary.',
+			#stamp : '6/30/2024 18:09',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'real:imaginary:',
+			#protocol : #initialization,
+			#sourceCode : 'real: aReal imaginary: anImaginary \r    ^self initializeReal: aReal imaginary: anImaginary.',
+			#stamp : '6/30/2024 18:09',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '101' ],
+		#self : OmReference [ '102' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'angle:radius:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'angle: anAngle radius: aRadius\r    ^self new initializeAngle: anAngle radius: aRadius.',
+			#stamp : '6/30/2024 17:45',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'angle:radius:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'angle: anAngle radius: aRadius\r    ^self initializeAngle: anAngle radius: aRadius.',
+			#stamp : '6/30/2024 18:10',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '102' ],
+		#self : OmReference [ '103' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'*',
+			#protocol : #'as yet unclassified',
+			#sourceCode : '* aNumber\r    | newReal newImaginary |\r    newReal := (real * aNumber real) - (imaginary * aNumber imaginary).\r    newImaginary := (real * aNumber imaginary) + (imaginary * aNumber real).\r    ^ComplexNumber real: newReal imaginary: newImaginary.\r\r',
+			#stamp : '6/30/2024 17:49',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'*',
+			#protocol : #'as yet unclassified',
+			#sourceCode : '* aNumber\r    | newReal newImaginary |\r    newReal := (real * aNumber real) - (imaginary * aNumber imaginary).\r    newImaginary := (real * aNumber imaginary) + (imaginary * aNumber real).\r    ^self real: newReal imaginary: newImaginary.\r\r',
+			#stamp : '6/30/2024 18:11',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '103' ],
+		#self : OmReference [ '104' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'+',
+			#protocol : #'as yet unclassified',
+			#sourceCode : '+ aNumber\r    ^ComplexNumber real: (real + aNumber real) imaginary: (imaginary + aNumber imaginary).\r',
+			#stamp : '6/30/2024 17:49',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'+',
+			#protocol : #'as yet unclassified',
+			#sourceCode : '+ aNumber\r    ^self real: (real + aNumber real) imaginary: (imaginary + aNumber imaginary).\r',
+			#stamp : '6/30/2024 18:11',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '104' ],
+		#self : OmReference [ '105' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #-,
+			#protocol : #'as yet unclassified',
+			#sourceCode : '- aNumber\r    ^ComplexNumber real: (real - aNumber real) imaginary: (imaginary - aNumber imaginary).\r\r',
+			#stamp : '6/30/2024 17:49',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #-,
+			#protocol : #'as yet unclassified',
+			#sourceCode : '- aNumber\r    ^self real: (real - aNumber real) imaginary: (imaginary - aNumber imaginary).\r\r',
+			#stamp : '6/30/2024 18:11',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '105' ],
+		#self : OmReference [ '106' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #/,
+			#protocol : #'as yet unclassified',
+			#sourceCode : '/ aNumber\r    | divisor newReal newImaginary |\r    divisor := (aNumber real squared + aNumber imaginary squared).\r    newReal := ((real * aNumber real) + (imaginary * aNumber imaginary)) / divisor.\r    newImaginary := ((imaginary * aNumber real) - (real * aNumber imaginary)) / divisor.\r    ^ComplexNumber real: newReal imaginary: newImaginary.\r\r',
+			#stamp : '6/30/2024 17:50',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #/,
+			#protocol : #'as yet unclassified',
+			#sourceCode : '/ aNumber\r    | divisor newReal newImaginary |\r    divisor := (aNumber real squared + aNumber imaginary squared).\r    newReal := ((real * aNumber real) + (imaginary * aNumber imaginary)) / divisor.\r    newImaginary := ((imaginary * aNumber real) - (real * aNumber imaginary)) / divisor.\r    ^self real: newReal imaginary: newImaginary.\r\r',
+			#stamp : '6/30/2024 18:11',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '106' ],
+		#self : OmReference [ '107' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #angle,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'angle\r    ^(imaginary / real) arcTan.',
+			#stamp : '6/30/2024 17:48',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '107' ],
+		#self : OmReference [ '108' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'+',
+			#protocol : #'as yet unclassified',
+			#sourceCode : '+ aNumber\r    ^self real: (real + aNumber real) imaginary: (imaginary + aNumber imaginary).\r',
+			#stamp : '6/30/2024 18:11',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '108' ],
+		#self : OmReference [ '109' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'angle:radius:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'angle: anAngle radius: aRadius\r    ^self initializeAngle: anAngle radius: aRadius.',
+			#stamp : '6/30/2024 18:10',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '109' ],
+		#self : OmReference [ '110' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'initializeAngle:radius:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'initializeAngle: anAngle radius: aRadius\r    real := aRadius * (anAngle cos).\r    imaginary := aRadius * (anAngle sin).',
+			#stamp : '6/30/2024 17:46',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '110' ],
+		#self : OmReference [ '111' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #real,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'real\r    ^real.',
+			#stamp : '6/30/2024 17:47',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '111' ],
+		#self : OmReference [ '112' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #-,
+			#protocol : #'as yet unclassified',
+			#sourceCode : '- aNumber\r    ^self real: (real - aNumber real) imaginary: (imaginary - aNumber imaginary).\r\r',
+			#stamp : '6/30/2024 18:11',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '112' ],
+		#self : OmReference [ '113' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'*',
+			#protocol : #'as yet unclassified',
+			#sourceCode : '* aNumber\r    | newReal newImaginary |\r    newReal := (real * aNumber real) - (imaginary * aNumber imaginary).\r    newImaginary := (real * aNumber imaginary) + (imaginary * aNumber real).\r    ^self real: newReal imaginary: newImaginary.\r\r',
+			#stamp : '6/30/2024 18:11',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '113' ],
+		#self : OmReference [ '114' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #/,
+			#protocol : #'as yet unclassified',
+			#sourceCode : '/ aNumber\r    | divisor newReal newImaginary |\r    divisor := (aNumber real squared + aNumber imaginary squared).\r    newReal := ((real * aNumber real) + (imaginary * aNumber imaginary)) / divisor.\r    newImaginary := ((imaginary * aNumber real) - (real * aNumber imaginary)) / divisor.\r    ^self real: newReal imaginary: newImaginary.\r\r',
+			#stamp : '6/30/2024 18:11',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '114' ],
+		#self : OmReference [ '115' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #radius,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'radius\r    ^(real squared + imaginary squared) sqrt.',
+			#stamp : '6/30/2024 17:48',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '115' ],
+		#self : OmReference [ '116' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #imaginary,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'imaginary\r    ^imaginary.',
+			#stamp : '6/30/2024 17:47',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '116' ],
+		#self : OmReference [ '117' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'real:imaginary:',
+			#protocol : #initialization,
+			#sourceCode : 'real: aReal imaginary: anImaginary \r    ^self initializeReal: aReal imaginary: anImaginary.',
+			#stamp : '6/30/2024 18:09',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'real:imaginary:',
+			#protocol : #initialization,
+			#sourceCode : 'real: unReal imaginary: unImaginario \r        ^self real: unReal imaginary: unImaginario .',
+			#stamp : '6/30/2024 18:46',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '117' ],
+		#self : OmReference [ '118' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'angle:radius:',
+			#protocol : #initialization,
+			#sourceCode : 'angle: anAngle radius: aRadius \r        | real imaginary |\r        real := aRadius * (anAngle cos).\r        imaginary := aRadius * (anAngle sin).\r        ^self  real: real imaginary: imaginary.\r    ',
+			#stamp : '6/30/2024 18:50',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '118' ],
+		#self : OmReference [ '119' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'angle:radius:',
+			#protocol : #initialization,
+			#sourceCode : 'angle: anAngle radius: aRadius \r        | real imaginary |\r        real := aRadius * (anAngle cos).\r        imaginary := aRadius * (anAngle sin).\r        ^self  real: real imaginary: imaginary.\r    ',
+			#stamp : '6/30/2024 18:50',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'angle:radius:',
+			#protocol : #initialization,
+			#sourceCode : 'angle: anAngle radius: aRadius \r        real := aRadius * (anAngle cos).\r        imaginary := aRadius * (anAngle sin).\r        ^self  real: real imaginary: imaginary.\r    ',
+			#stamp : '6/30/2024 18:50',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '119' ],
+		#self : OmReference [ '120' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'real:imaginary:',
+			#protocol : #initialization,
+			#sourceCode : 'real: unReal imaginary: unImaginario \r        ^self real: unReal imaginary: unImaginario .',
+			#stamp : '6/30/2024 18:46',
+			#package : #TriValuedLogic
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'real:imaginary:',
+			#protocol : #initialization,
+			#sourceCode : 'real: unReal imaginary: unImaginario \r        real := unReal.\r        imaginary := unImaginario.\r    \r    ',
+			#stamp : '6/30/2024 18:50',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '120' ],
+		#self : OmReference [ '121' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #real,
+			#protocol : #initialization,
+			#sourceCode : 'real \r        ^real.\r    ',
+			#stamp : '6/30/2024 18:51',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '121' ],
+		#self : OmReference [ '122' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #imaginary,
+			#protocol : #initialization,
+			#sourceCode : 'imaginary \r        ^imaginary.\r    \r    ',
+			#stamp : '6/30/2024 18:51',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '122' ],
+		#self : OmReference [ '123' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #angle,
+			#protocol : #initialization,
+			#sourceCode : 'angle \r        ^(imaginary / real) arcTan.\r    ',
+			#stamp : '6/30/2024 18:52',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '123' ],
+		#self : OmReference [ '124' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #radius,
+			#protocol : #initialization,
+			#sourceCode : 'radius \r        ^(real squared + imaginary squared) sqrt.\r    \r',
+			#stamp : '6/30/2024 18:52',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '124' ],
+		#self : OmReference [ '125' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'+',
+			#protocol : #initialization,
+			#sourceCode : '+ unComplexNumber \r    ^self real: (real + unComplexNumber real) imaginary: (imaginary + unComplexNumber imaginary).\r',
+			#stamp : '6/30/2024 18:53',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '125' ],
+		#self : OmReference [ '126' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #-,
+			#protocol : #initialization,
+			#sourceCode : '- unComplexNumber \r    ^self real: (real - unComplexNumber real) imaginary: (imaginary - unComplexNumber imaginary).\r',
+			#stamp : '6/30/2024 18:54',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '126' ],
+		#self : OmReference [ '127' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #'*',
+			#protocol : #initialization,
+			#sourceCode : '* unComplexNumber \r    | newReal newImaginary |\r    newReal := (real * unComplexNumber real) - (imaginary * unComplexNumber imaginary).\r    newImaginary := (real * unComplexNumber imaginary) + (imaginary * unComplexNumber real).\r    ^self real: newReal imaginary: newImaginary.',
+			#stamp : '6/30/2024 18:55',
+			#package : #TriValuedLogic
+		}
+	}
+}OmEntry {
+	#tags : {
+		#prior : OmReference [ '127' ],
+		#self : OmReference [ '128' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#isMeta : false,
+				#className : #ComplexNumber
+			},
+			#name : #/,
+			#protocol : #initialization,
+			#sourceCode : '/ unComplexNumber \r    | denominator newReal newImaginary |\r    denominator := (unComplexNumber real squared + unComplexNumber imaginary squared).\r    newReal := ((real * unComplexNumber real) + (imaginary * unComplexNumber imaginary)) / denominator.\r    newImaginary := ((imaginary * unComplexNumber real) - (real * unComplexNumber imaginary)) / denominator.\r    ^self real: newReal imaginary: newImaginary.',
+			#stamp : '6/30/2024 18:55',
+			#package : #TriValuedLogic
+		}
+	}
+}
